@@ -69,7 +69,7 @@ def test_nav_links_correct(page):
     expect(nav_card.get_by_role("link", name="Projects")).to_have_attribute("href", "/projects/")
     expect(nav_card.get_by_role("link", name="Education")).to_have_attribute("href", "/education/")
     expect(nav_card.get_by_role("link", name="Languages")).to_have_attribute("href", "/languages/")
-    expect(nav_card.get_by_role("link", name="Certificates")).to_have_attribute("href", git remote add origin https://github.com/comatosemaster/resume-site-tests.git"/certificates/")
+    expect(nav_card.get_by_role("link", name="Certificates")).to_have_attribute("href", "/certificates/")
     expect(nav_card.get_by_role("link", name="Contact Me")).to_have_attribute("href", "/contact/")
     expect(nav_card.get_by_role("link", name="About")).to_have_attribute("href", "/")
     expect(nav_card.get_by_role("link", name="Favorite Animes")).to_have_attribute("href", "/animes/")
