@@ -39,3 +39,6 @@ def test_experience_box(page):
         expect(card.locator(".exp-company")).to_be_visible()
         expect(card.locator(".exp-divider")).to_be_visible()
         expect(card.locator(".exp-desc")).to_be_visible()
+        expect(card.locator(".exp-role")).not_to_have_text("")
+        expect(card.locator(".exp-company")).not_to_have_text("")
+        expect(card.locator(".exp-desc")).not_to_have_text("")
