@@ -8,7 +8,7 @@ def open_page(page):
     page.goto(base_url)
 
 def test_experience_title(page):
-    expect(page).to_have_title("Experience – Davit Mujirishvili")
+    expect(page).to_have_title("Experience - Davit Mujirishvili")
 
 
 def test_experience_name(page):

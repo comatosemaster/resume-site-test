@@ -18,7 +18,7 @@ def test_send_message(page):
     expect(page.get_by_text("Thanks! Your message has been sent.")).to_be_visible()
 
 def test_contact_page(page):
-    expect(page).to_have_title("Contact – Davit Mujirishvili")
+    expect(page).to_have_title("Contact - Davit Mujirishvili")
     expect(page.locator('input[name="name"]')).to_be_visible()
     expect(page.locator('input[name="email"]')).to_be_visible()
     expect(page.locator('textarea[name="message"]')).to_be_visible()

@@ -8,7 +8,7 @@ def open_page(page):
     page.goto(base_url)
 
 def test_skills_title(page):
-    expect(page).to_have_title("Skills – Davit Mujirishvili")
+    expect(page).to_have_title("Skills - Davit Mujirishvili")
 
 
 def test_skills_name(page):
